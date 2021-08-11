@@ -7,8 +7,12 @@ White: #FFF
 
 */
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 nav {
-    margin-bottom: 15px;
+    margin: 15px 0;
 }
 nav li {
     margin: 0 20px;
@@ -22,7 +26,7 @@ nav div{
 }
 
 nav > img {
-    width: 300px;
+    width: 320px;
     margin-left: 35px;
     
 }
@@ -44,23 +48,22 @@ nav ul {
 nav a {
     text-decoration: none;
     color: #1A1A1A;
-    font-size: 45px;
+    font-size: 30px;
+    position: relative;
+    top: 15px;
 }
 
 .section1 {
     background-image: url(../images/landing.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 1200px;
+    height: 1125px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-self: center;
     justify-content: space-around;
-}
-
-.section2 {
-    color: #1A1A1A;
+    background-position: 0 -130px;
 }
 
 
@@ -70,30 +73,38 @@ nav a {
 
 
 h1 {
-    font-size: 130px;
+    font-size: 108px;
+    position:relative;
+    top: 8%;
 }
 
-.section1 > div {
-    font-size: 50px;
+.section1 > p {
+    font-size: 42px;
     position: relative;
-    bottom: 35%;
+    bottom: 28%;
+}
+
+
+.section2 {
+    color: #1A1A1A;
 }
 
 
 #title2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 55px;
     border: #00B172;
     border-style: solid;
-    border-width: 0 0 4px 0;
-    margin: 0 670px 80px 670px;
-    padding-bottom: 0;
+    border-width: 0 0 5px 0;
+    margin: 100px 695px 250px 695px;
+    font-weight: bolder;
+    
     
 }
 
 #articles img {
     width: 200px;
-    height: 170px;
+    
     position: relative;
     left: 90px;
     
@@ -108,7 +119,14 @@ h1 {
     display: flex;
     flex-direction: column;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    position: relative;
+    bottom: 115px;
+    
+}
+
+#middle img {
+    margin-bottom: 25px;
     
 }
 
@@ -124,7 +142,7 @@ h1 {
 }
 
 #articles p {
-    color: gray;
+    color: rgb(54, 54, 54);
     font-size: 40px;;
 }
 
@@ -133,22 +151,28 @@ h1 {
 }
 
 #app img {
-    width: 400px;;
+    width: 450px;;
+    position: relative;
+    top: 50px;
 }
 
 .section3 h2 {
     font-size: 50px;
     border-style: solid;
     border-width: 0 0 4px 0;
+    padding-bottom: 7px;
 
 }
 .section3 h3 {
-    font-size: 40px;
+    font-size: 45px;
+    font-weight: bolder;
 }
 
 .section3 p {
-    font-size: 25px;
+    font-size: 28px;
     padding: -30px 0;
+    line-height: 35px;
+    
 }
 
 .section3 {
@@ -157,7 +181,7 @@ h1 {
     flex-direction: row;
     justify-content: space-evenly;
     padding: 60px 0 ;
-    margin: 0 60px;
+    margin: 0 60px 60px 60px;
 }
 
 
@@ -174,7 +198,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     position: relative;
-    right: 85px;
+    right: 150px;
 }
 
 #app {
